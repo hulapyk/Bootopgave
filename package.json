@@ -1,5 +1,5 @@
 {
-  "name": "gulpproject",
+  "name": "boot_opgave",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "dependencies": {
     "bootstrap": "^4.5.2",
     "chart.js": "^2.9.3",
+    "install": "^0.13.0",
     "jquery": "^3.5.1"
   },
   "devDependencies": {
