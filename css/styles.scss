@@ -70,7 +70,7 @@ body {
     font-size: 40px;
     color: $IFWhite;
     position: absolute;
-    top: 90%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -90,4 +90,27 @@ body {
 .blkBG {
     background: $IFLighterGrey;
     color: $IFWhite;
+}
+
+@media screen and (min-width: 1600px) {
+
+    .bg-image{
+        height: 1000px;
+    }
+
+    .headerDownIcon{
+        position: absolute;
+        top: 90%;
+    }
+
+    .headerButton{
+        margin-top: 200px;
+    }
+
+    .mt-lg-BIG {
+        margin-top: 100px !important;
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+
 }
