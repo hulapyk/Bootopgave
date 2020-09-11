@@ -9,6 +9,10 @@
     color: white;
 }
 
+* {
+    overflow-x: hidden;
+}
+
 body {
     // font-family: 'Nunito', sans-serif;
     //font-family: 'Rubik', sans-serif;
@@ -34,6 +38,10 @@ body {
 .headerText {
     @include centerWhiteText();
     margin-top: 200px;
+
+    button{
+        margin-top: 75px;
+    }
 }
 
 .headerButton {
